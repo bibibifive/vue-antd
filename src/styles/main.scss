@@ -13,17 +13,16 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --theme-bg : #fff;
-  --theme-text : #111;
-
+  --theme-bg: #fff;
+  --theme-text: #111;
 }
 
-html[data-theme='dark']{
-  --theme-bg : #222;
-  --theme-text : #eee;
+html[data-theme='dark'] {
+  --theme-bg: #222;
+  --theme-text: #eee;
 }
 
-.theme{
+.theme {
   background: var(--theme-bg);
   color: var(--theme-text);
 }
@@ -36,7 +35,11 @@ html[data-theme='dark']{
   padding: 0;
   position: relative;
   font-weight: normal;
-  transition: all .1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+p {
+  margin: 0;
 }
 
 #app {
@@ -81,7 +84,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {

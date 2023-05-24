@@ -76,7 +76,6 @@ const routes = [
       <Content
         :style="{
           margin: '0 16px',
-          padding: '24px',
           minHeight: '280px',
         }"
         class="theme"

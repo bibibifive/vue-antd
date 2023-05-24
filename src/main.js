@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './routers'
 import { message } from 'ant-design-vue'
 
-import './styles/main.scss'
 import 'ant-design-vue/dist/antd.css'
+import './styles/main.scss'
 
 const app = createApp(App)
 
